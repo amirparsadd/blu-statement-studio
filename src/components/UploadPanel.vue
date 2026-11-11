@@ -26,7 +26,7 @@ function onPick(e: Event) {
 
     <label
       class="card mt-8 block cursor-pointer border-2 border-dashed p-10 transition"
-      :class="dragging ? 'border-blu bg-[#f0f6fd]' : 'hover:border-blu'"
+      :class="dragging ? 'border-blu bg-[#f9f3f1]' : 'hover:border-blu'"
       @dragover.prevent="dragging = true"
       @dragenter.prevent="dragging = true"
       @dragleave.prevent="dragging = false"

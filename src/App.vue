@@ -17,7 +17,7 @@ const statement = useStatementStore()
     </main>
 
     <footer class="mt-12 border-t border-line pt-5 text-center text-[12px] leading-relaxed text-muted">
-      این برنامه مستقل است و هیچ ارتباط رسمی با بلو بانک ندارد. نام «بلو» و لوگوی آن متعلق به بلو بانک است.
+      این پروژه غیررسمی است و وابسته به بلوبانک نیست. این برنامه مستقل است و هیچ ارتباط رسمی با بلو بانک ندارد. نام «بلو» و لوگوی آن متعلق به بلو بانک است.
     </footer>
   </div>
 </template>

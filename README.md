@@ -54,4 +54,6 @@ MIT. See [LICENSE](LICENSE).
 
 ## Disclaimer
 
+این پروژه غیررسمی است و وابسته به بلوبانک نیست.
+
 This project is independent and is not affiliated with, endorsed by, or sponsored by Blu Bank. "Blu" and the Blu logo belong to Blu Bank. The logo is included only to identify the statements this tool reads.

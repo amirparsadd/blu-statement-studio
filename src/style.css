@@ -35,14 +35,14 @@
 @theme {
   --font-sans: 'YekanBakh', system-ui, sans-serif;
 
-  --color-page: #f4f7fb;
+  --color-page: #f8f5f2;
   --color-surface: #ffffff;
-  --color-line: #e3e9f2;
-  --color-ink: #1d2535;
-  --color-muted: #6b7689;
-  --color-blu: #4e91e6;
-  --color-blu-dark: #2f6fbf;
-  --color-navy: #1d3d6b;
+  --color-line: #eae5e1;
+  --color-ink: #32221b;
+  --color-muted: #7e6c63;
+  --color-blu: #653825;
+  --color-blu-dark: #4e2c1d;
+  --color-navy: #3b2217;
   --color-income: #1d9a6c;
   --color-expense: #d64545;
 }
@@ -76,7 +76,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #cfd9e8;
+    background: #d6cac2;
     border-radius: 99px;
   }
 }

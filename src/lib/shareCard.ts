@@ -15,13 +15,13 @@ export interface ShareCardInput {
 const W = 1080
 const H = 1350
 const PAD = 88
-const INK = '#1d2535'
-const MUTED = '#6b7689'
-const BLUE = '#4e91e6'
-const NAVY = '#1d3d6b'
+const INK = '#32221b'
+const MUTED = '#7e6c63'
+const BLUE = '#653825'
+const NAVY = '#3b2217'
 const GREEN = '#1d9a6c'
 const RED = '#d64545'
-const LINE = '#e3e9f2'
+const LINE = '#eae5e1'
 const MASK = '••••••'
 
 let logoPromise: Promise<HTMLImageElement> | null = null
@@ -124,7 +124,7 @@ export async function renderShareCard(input: ShareCardInput): Promise<HTMLCanvas
     ctx.beginPath()
     ctx.roundRect(PAD, y + 16, R - PAD, 12, 6)
     ctx.fill()
-    ctx.fillStyle = i === 0 ? BLUE : '#8db8ef'
+    ctx.fillStyle = i === 0 ? BLUE : '#bc8b76'
     ctx.beginPath()
     ctx.roundRect(R - Math.max(12, (R - PAD) * cat.share), y + 16, Math.max(12, (R - PAD) * cat.share), 12, 6)
     ctx.fill()
@@ -133,7 +133,7 @@ export async function renderShareCard(input: ShareCardInput): Promise<HTMLCanvas
   // footer
   ctx.fillStyle = MUTED
   ctx.font = font(400, 22)
-  ctx.fillText('ساخته‌شده با استیتمنت استودیو · وابسته به بلو بانک نیست', R, H - 60)
+  ctx.fillText('این پروژه غیررسمی است و وابسته به بلوبانک نیست', R, H - 60)
 
   return canvas
 }
@@ -153,7 +153,7 @@ function statBlock(
   value: string,
   color: string,
 ) {
-  ctx.fillStyle = '#f5f8fc'
+  ctx.fillStyle = '#faf7f5'
   ctx.beginPath()
   ctx.roundRect(x, y, w, h, 20)
   ctx.fill()
